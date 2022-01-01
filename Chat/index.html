@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Walkover Inc. Chat Application</title>
+  <link rel="stylesheet" href="bootstrap3.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+  <div id="app" class="app">
+    <section id="main-left" class="main-left">
+      <!-- header -->
+      <div id="header-left" class="header-left">
+        <span class="glyphicon glyphicon-menu-hamburger hamburger-btn"></span>
+        <span class="glyphicon glyphicon-search search-btn"></span>
+        <span class="glyphicon glyphicon-option-vertical option-btn"></span>
+      </div>
+      <!-- chat list -->
+      <div id="chat-list" class="chat-list">
+        <!-- user lists -->
+        <div id="friends" class="friends">
+          <!-- photo -->
+          <div class="profile friends-photo">
+            <img src="images/ava2.jpg" alt="">
+          </div>
+          <div class="friends-credent">
+            <!-- name -->
+            <span class="friends-name">ashish Yadav</span>
+            <!-- last message -->
+            <span class="friends-message">Sir meeting karlen kya apan?</span>
+          </div>
+          <!-- notification badge -->
+          <span class="badge notif-badge">7</span>
+        </div>
+        <div id="friends" class="friends">
+          <!-- photo -->
+          <div class="profile friends-photo">
+            <img src="images/ava3.jpg" alt="">
+          </div>
+          
+          <div class="friends-credent">
+            <!-- name -->
+            <span class="friends-name">new users-signup</span>
+            <!-- last message -->
+            <span class="friends-message">sidhja192435@gmail.com</span>
+          </div>
+          <!-- notification badge -->
+          <span class="badge notif-badge">999</span>
+        </div>
+
+        <div id="friends" class="friends">
+          <!-- photo -->
+          <div class="profile friends-photo">
+            <img src="images/ava5.jpg" alt="">
+          </div>
+          
+          <div class="friends-credent">
+            <!-- name -->
+            <span class="friends-name">Neha Kuwal</span>
+            <!-- last message -->
+            <span class="friends-message">Shared attachment from desktop</span>
+          </div>
+          <!-- notification badge -->
+          <span class="badge notif-badge">26</span>
+        </div>
+
+        <div id="friends" class="friends">
+          <!-- photo -->
+          <div class="profile friends-photo">
+            <img src="images/ava6.jpg" alt="">
+          </div>
+          
+          <div class="friends-credent">
+            <!-- name -->
+            <span class="friends-name">#Walkover general</span>
+            <!-- last message -->
+            <span class="friends-message">Aditya:joined this channel</span>
+          </div>
+          <!-- notification badge -->
+          <span class="badge notif-badge">7</span>
+        </div>
+
+        <div id="friends" class="friends">
+          <!-- photo -->
+          <div class="profile friends-photo">
+            <img src="images/ava7.jpg" alt="">
+          </div>
+          
+          <div class="friends-credent">
+            <!-- name -->
+            <span class="friends-name">Space-mate</span>
+            <!-- last message -->
+            <span class="friends-message">Sarthak:NA for 30 min</span>
+          </div>
+          <!-- notification badge -->
+          <span class="badge notif-badge">7</span>
+        </div>
+
+        <div id="friends" class="friends">
+          <!-- photo -->
+          <div class="profile friends-photo">
+            <img src="images/ava1.jpg" alt="">
+          </div>
+          
+          <div class="friends-credent">
+            <!-- name -->
+            <span class="friends-name">Vikalp Diwedi</span>
+            <!-- last message -->
+            <span class="friends-message">krdi push</span>
+          </div>
+          <!-- notification badge -->
+          <span class="badge notif-badge">7</span>
+        </div>
+      <div id="friends" class="friends">
+        <!-- photo -->
+        <div class="profile friends-photo">
+          <img src="images/ava1.jpg" alt="">
+        </div>
+
+        <div class="friends-credent">
+          <!-- name -->
+          <span class="friends-name">Priya Raghuvanshi</span>
+          <!-- last message -->
+          <span class="friends-message">Call rejected</span>
+        </div>
+        <!-- notification badge -->
+        <span class="badge notif-badge">7</span>
+      </div>
+  </div>
+
+  <!-- self-profile -->
+      <div id="self-info" class="self-info">
+        <!-- photo -->
+        <div class="profile your-photo">
+          <img src="images/ava4.jpg" alt="">
+        </div>
+        <!-- name -->
+        <h4 class="name your-name">Me</h4>
+        <!-- setting btn -->
+        <span class="glyphicon glyphicon-cog"></span>
+      </div>
+    </section>
+
+
+
+    <!-- RIGHT SECTION -->
+
+    <section id="main-right" class="main-right">
+      <!-- header -->
+      <div id="header-right" class="header-right">
+        <!-- profile pict -->
+        <div id="header-img" class="profile header-img">
+          <img src="images/ava2.jpg" alt="">
+        </div>
+
+        <!-- name -->
+        <h4 class="name friend-name">ashish Yadav</h4>
+
+        <!-- some btn -->
+        <div class="some-btn">
+          <span class="glyphicon glyphicon-facetime-video"></span>
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span class="glyphicon glyphicon-option-vertical option-btn"></span>
+        </div>
+      </div>
+
+      <!-- chat area -->
+      <div id="chat-area" class="chat-area">
+        <!-- chat content -->
+
+        <!-- FRIENDS CHAT TEMPLATE -->
+        <div id="friends-chat" class="friends-chat">
+          <div class="profile friends-chat-photo">
+            <img src="images/ava2.jpg" alt="">
+          </div>
+          <div class="friends-chat-content">
+            <p class="friends-chat-name">ashish Yadav</p>
+            <p class="friends-chat-balloon">Sir</p>
+            <h5 class="chat-datetime">Sun, Jan 02 | 09:41</h5>
+          </div>
+        </div>
+        <!-- YOUR CHAT TEMPLATE -->
+        <div id="your-chat" class="your-chat">
+          <p class="your-chat-balloon">hannji bolo</p>
+          <p class="chat-datetime"><span class="glyphicon glyphicon-ok"></span> Sun, Jan 02 | 09:42</p>
+        </div>
+
+        <!-- FRIENDS CHAT TEMPLATE -->
+        <div id="friends-chat" class="friends-chat">
+          <div class="profile friends-chat-photo">
+            <img src="images/ava2.jpg" alt="">
+          </div>
+          <div class="friends-chat-content">
+            <p class="friends-chat-name">ashish Yadav</p>
+            <p class="friends-chat-balloon">Can I get a week off? </p>
+            <h5 class="chat-datetime">Sun, Jan 02 | 09:43</h5>
+          </div>
+        </div>
+
+        <!-- FRIENDS CHAT TEMPLATE -->
+        <div id="friends-chat" class="friends-chat">
+          <div class="profile friends-chat-photo">
+            <img src="images/ava2.jpg" alt="">
+          </div>
+          <div class="friends-chat-content">
+            <p class="friends-chat-name">ashish Yadav</p>
+            <p class="friends-chat-balloon">I want to visit my parents</p>
+            <h5 class="chat-datetime">Sun, Jan 02 | 09:44</h5>
+          </div>
+        </div>
+
+        <!-- YOUR CHAT TEMPLATE -->
+        <div id="your-chat" class="your-chat">
+          <p class="your-chat-balloon">Sure take a leave can visit them</p>
+          <p class="chat-datetime"><span class="glyphicon glyphicon-ok"></span> Sun, Jan 02 | 09:45</p>
+        </div>
+
+        <!-- FRIENDS CHAT TEMPLATE -->
+        <div id="friends-chat" class="friends-chat">
+          <div class="profile friends-chat-photo">
+            <img src="images/ava2.jpg" alt="">
+          </div>
+          <div class="friends-chat-content">
+            <p class="friends-chat-name">ashish Yadav</p>
+            <p class="friends-chat-balloon">Thanks a lot sir</p>
+            <h5 class="chat-datetime">Sun, Jan 02 | 10:00</h5>
+          </div>
+        </div>
+
+        <!-- YOUR CHAT TEMPLATE -->
+        <div id="your-chat" class="your-chat">
+          <p class="your-chat-balloon">Np! enjoy</p>
+          <p class="chat-datetime"><span class="glyphicon glyphicon-ok"></span> Sun, Jan 02 | 10:05</p>
+        </div>
+
+        <!-- FRIENDS CHAT TEMPLATE -->
+        <div id="friends-chat" class="friends-chat">
+          <div class="profile friends-chat-photo">
+            <img src="images/ava2.jpg" alt="">
+          </div>
+          <div class="friends-chat-content">
+            <p class="friends-chat-name">ashish Yadav</p>
+            <p class="friends-chat-balloon">I will bring special sweets from there for you :)</p>
+            <h5 class="chat-datetime">Sun, Jan 02 | 10:10</h5>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- typing area -->
+      <div id="typing-area" class="typing-area">
+        <!-- input form -->
+        <input id="type-area" class="type-area" placeholder="Type something...">
+        <!-- attachment btn -->
+        <div class="attach-btn">
+          <span class="glyphicon glyphicon-paperclip file-btn"></span>
+          <span class="glyphicon glyphicon-camera"></span>
+          <span class="glyphicon glyphicon-picture"></span>
+        </div>
+        <!-- send btn -->
+        <span class="glyphicon glyphicon-send send-btn"></span>
+      </div>
+    </section>
+  </div>
+
+  <div id="creator" class="creator">
+    <p>A product by <span>Walkover Inc.</span></p>
+  </div>
+    <script src="bootstrap3.3/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap3.3/js/bootstrap.min.js"></script>
+</body>
+</html>
